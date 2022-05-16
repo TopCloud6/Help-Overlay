@@ -8,7 +8,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        Bukkit.getConsoleSender().sendMessage(translate("&aHypixelHelpClone has been enabled."));
+        Bukkit.getConsoleSender().sendMessage(translate("&aHelpOverlay has been enabled."));
         getCommand("help").setExecutor(new HelpOverlay());
     }
 
