@@ -1,0 +1,5 @@
+name: Main
+version: '${project.version}'
+main: dev.salisbury.overlay.Main
+commands:
+  help:
